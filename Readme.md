@@ -1,7 +1,7 @@
 ## About  
 This plugin is designed to simplify the task of creating various forms that can be used in the WordPress admin panel.  
 
-#### It is based on [form-a](https://github.com/xenon615/form-a) so for the details of the form definition please refer there.  
+#### It is based on [form-a-js](https://github.com/xenon615/form-a-js) so for the details of the form definition please refer there.  
 
 ## Installation
 
@@ -24,7 +24,7 @@ First, let's prepare a place for it.
     function get_page() {
         //wp_enqueue_media();  
         //wp_enqueue_editor();
-        // uncomment lines above when your form useв wysiwyg field ()
+        // uncomment lines above when your form useв wysiwyg or media field ()
         echo 
         '<div>
             <form method="POST">
